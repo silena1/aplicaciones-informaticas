@@ -1,16 +1,25 @@
+body{
+background-color: rgb(245, 233, 217);
+}
 
+img{
+ border-radius: 10px;
+}
 .card-content {
-    margin-left:25%;
+    margin-left:20%;
     margin-top: 10%;
-    width: 900px;
+    width: 700px;
     display: flex;
     flex-direction: row;
     position: fixed;
-    height: 350PX;
+    height: 450PX;
+    background-color: white;
+    border-radius: 10px;
 }
 .card-content1 {
  width: 400px;
  padding-left: 25px;
+ padding-bottom: 0px;;
  
 }
 h3 {
@@ -23,7 +32,11 @@ h1{
 h2{
     font-family: 'Cormorant Garamond', serif;
 }
-
+.card-content2{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
 
 button {
     background-color: whitesmoke;
